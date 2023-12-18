@@ -1,0 +1,128 @@
+body h1{
+    font-family: serif;
+    font-size: 500%;
+}
+
+.container{
+    justify-content: center;
+    text-align: center;
+}
+.searchbar{
+    display: flex;
+}
+.searchbar input{
+    width: 220px;
+    padding: 6px;
+    font-size: 18px;
+    margin-inline: 5px;
+    border-radius: 3px;
+    justify-content: center;
+}
+.searchbar button{
+    width: 60px;
+    height: 37px;
+    background-color: rgb(223, 17, 69);
+    color: white;
+    border-radius: 3px;
+    font-size: 14x;
+    justify-content: center;
+    align-items: center;
+    margin-right: 25pxpx;
+    border: none;
+
+}
+
+
+.searchbar{
+    margin-left:800px;
+    margin-top: 40px;
+    display: flex;
+}
+
+.main{
+
+    height: 1200px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 600px 600px 600px;
+    grid-template-rows: 400px 400px 400px;
+    margin-top: 70px;
+}
+.box{
+
+    margin: 30px;
+    margin-left:250px;
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+}
+img{
+    width: 100%;
+    height: 140px;
+}
+#icon{
+    margin: 10px 5px 10px 15px;
+    position: absolute;
+}
+.container{
+    height: 200vh;
+    width: 100%;
+
+}
+#you{
+    margin-top: 60px;
+
+
+}
+h2{
+    margin-top: 60px;
+    font-weight: 100;
+}
+.box .p1{
+    margin-top: 5px;
+    color: var(--dark, #3c3030) ;
+    font-family: inknut antiqua;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+    letter-spacing: -0.72px;
+}
+.box .p2{
+    color: var(--dark, #3c3030) ;
+    font-family: inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    margin-top: 5px;
+    max-height: 200px;
+    display: flex;
+    overflow: hidden;
+}
+.box .p3{
+    color: var(--dark, #3c3030) ;
+    font-family: inria sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    margin-top: 10px;
+    display: flex;
+}
+.arrow{
+    height: 22px;
+    width: 22px;
+    border-bottom: 2px solid #D02424;
+}
+.arrow .span{
+    padding: 0;
+    color: #D02424;
+}
+#line{
+    color: rgb(223, 17, 69);
+    margin-right: 100vh;
+    
+
+
+}
